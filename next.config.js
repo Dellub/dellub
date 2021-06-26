@@ -5,15 +5,15 @@ module.exports = {
     defaultLocale: 'pt',
     domains: [
       {
-        domain: '/pt',
+        domain: 'https://dellub.com/pt',
         defaultLocale: 'pt',
       },
       {
-        domain: '/en',
+        domain: 'https://dellub.com/en',
         defaultLocale: 'en',
       },
       {
-        domain: '/es',
+        domain: 'https://dellub.com/es',
         defaultLocale: 'es',
       },
     ],
