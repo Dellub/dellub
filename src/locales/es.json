@@ -1,0 +1,21 @@
+{
+  "pages": {
+    "maintenance": {
+      "title": "Ooh!!!",
+			"description": "Lo sentimos, nuestra página está inactiva por mantenimiento.",
+			"seo": {
+				"title": "Página en mantenimiento",
+				"description": "Dellub software"
+			}
+    },
+		"404": {
+			"title": "Error 404",
+			"description": "Página no encontrada",
+			"link": "A casa",
+			"seo": {
+				"title": "Error 404",
+				"description": "Dellub software"
+			}
+		}
+  }
+}
