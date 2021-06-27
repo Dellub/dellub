@@ -30,7 +30,6 @@ const Home = () => {
 			<NextSeo
 				{...metas}
 				openGraph={{
-					url: 'https://www.url.ie/a',
 					...metas,
 				}}
 			/>
