@@ -1,0 +1,14 @@
+.icon {
+	@apply rounded-full transition-all flex justify-center items-center;
+	width: 33px;
+	height: 33px;
+}
+
+.icon-default {
+	background-color: #4B74EB;
+}
+.icon-default svg {
+	fill: white;
+	height: 19px;
+	width: 19px;
+}
