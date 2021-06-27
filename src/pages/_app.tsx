@@ -46,7 +46,7 @@ const App = ({ Component, pageProps, router: { locale, asPath }, router }: AppPr
 					cardType: 'summary_large_image',
 				}}
 			/>
-			{/* <ThemeProvider attribute="class"> */}
+			<ThemeProvider attribute="class">
 				<NextIntlProvider
 					formats={{
 						dateTime: {
@@ -63,7 +63,7 @@ const App = ({ Component, pageProps, router: { locale, asPath }, router }: AppPr
 				>
 					<Component {...pageProps} />
 				</NextIntlProvider>
-			{/* </ThemeProvider> */}
+			</ThemeProvider>
 		</>
 	)
 }
