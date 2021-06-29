@@ -1,0 +1,49 @@
+.display {
+	@apply text-8xl text-gray-900 font-bold;
+	line-height: 8.375rem;
+}
+.display span,
+.heading span {
+	@apply block;
+}
+
+.heading {
+	@apply text-gray-700 font-bold;
+}
+.heading-1 {
+	@apply text-5xl;
+	line-height: 4.438rem;
+}
+.heading-2 {
+	@apply text-4xl;
+	line-height: 3.313rem;
+}
+.heading-3 {
+	@apply text-3xl;
+	line-height: 2.75rem;
+}
+.heading-4 {
+	@apply text-2xl;
+	line-height: 2.188rem;
+}
+.heading-5 {
+	@apply text-xl;
+	line-height: 1.625rem;
+}
+.heading-6 {
+	@apply text-base font-normal;
+	line-height: 1.375rem;
+}
+
+.body {
+	@apply font-normal;
+}
+.body-1 {
+	@apply text-xl;
+}
+.body-2 {
+	@apply text-base;
+}
+.body-3 {
+	@apply text-sm;
+}
