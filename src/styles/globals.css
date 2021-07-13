@@ -6,4 +6,6 @@
   @import './button.css';
 	@import './icon.css';
 	@import './typography.css';
+	@import './layout.css';
+	@import './image.css';
 }

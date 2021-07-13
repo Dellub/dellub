@@ -15,6 +15,9 @@ module.exports = {
     typography: ['dark'],
   },
 	theme: {
+		flex: {
+			auto: 'auto',
+		},
     typography: (theme) => ({}),
 		screens: {
 			sm: '540px',

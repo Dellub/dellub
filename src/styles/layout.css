@@ -1,0 +1,7 @@
+#__next {
+	@apply min-h-screen;
+}
+
+.layout {
+	@apply flex flex-auto flex-col box-border;
+}

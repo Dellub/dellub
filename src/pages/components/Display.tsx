@@ -1,12 +1,12 @@
 import { ReactNode } from 'react';
 
 type DisplayProps = {
-	children: string;
+	text: string;
 }
 
-const Display = ({ children }: DisplayProps) => {
+const Display = ({ text }: DisplayProps) => {
 	return <h1 className={`display`}dangerouslySetInnerHTML={{
-		__html: children,
+		__html: text,
 	}}/>;
 };
 

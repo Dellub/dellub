@@ -1,13 +1,11 @@
-import { ReactNode } from 'react';
-
 type HeadingProps = {
 	size?: number;
-	children: string;
+	text: string;
 }
 
-const Heading = ({ size, children }: HeadingProps) => {
+const Heading = ({ size, text }: HeadingProps) => {
 	return <h2 className={`heading heading-${size}`} dangerouslySetInnerHTML={{
-		__html: children,
+		__html: text,
 	}}/>;
 };
 
