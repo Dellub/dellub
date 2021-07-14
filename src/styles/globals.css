@@ -8,4 +8,5 @@
 	@import './typography.css';
 	@import './layout.css';
 	@import './image.css';
+	@import './header.css';
 }

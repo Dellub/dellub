@@ -5,3 +5,7 @@
 .layout {
 	@apply flex flex-auto flex-col box-border;
 }
+
+.container-custom {
+	@apply container mx-auto px-4;
+}

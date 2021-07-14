@@ -14,15 +14,14 @@
 	@apply p-0 py-8;
 }
 .btn-primary {
-	background-color: #4B74EB;
-	@apply text-white;
+	@apply text-white bg-primary;
 }
 .btn-primary:hover, .btn-secondary:hover {
 	box-shadow: 0px 11px 16px rgba(75, 116, 235, 0.37);
 }
 .btn-primary:disabled {
 	background-color: #A5B9F5;
-	color: #6E778D;
+	@apply text-gray-700;
 }
 .btn-primary:disabled:hover, .btn-secondary:disabled:hover {
 	@apply cursor-not-allowed shadow-none;
@@ -33,12 +32,10 @@
 	border: 1px solid #4B74EB;
 }
 .btn-secondary:disabled {
-	color: #A5B9F5;
-	border-color: #A5B9F5;
-	@apply cursor-not-allowed;
+	@apply cursor-not-allowed border-primary text-primary;
 }
 .btn-tertiary {
-	color: #4B74EB;
+	@apply text-primary;
 }
 .btn-tertiary:disabled {
 	color: #A5B9F5;

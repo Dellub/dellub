@@ -17,5 +17,16 @@
 				"description": "Error 404"
 			}
 		}
-  }
+  },
+	"components": {
+		"header": {
+			"title": "Dellub Software",
+			"links": {
+				"home": "Home",
+				"about-me": "About me",
+				"cases": "Cases",
+				"contact-us": "Contact us"
+			}
+		}
+	}
 }

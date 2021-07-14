@@ -1,0 +1,13 @@
+.footer {
+	@apply flex justify-between items-center border-b-2 border-white;
+	height: 74px;
+}
+
+.link-menu {
+	@apply ml-2 text-white font-normal;
+	margin-left: 35px;
+}
+
+.link-menu.active {
+	@apply font-semibold;
+}

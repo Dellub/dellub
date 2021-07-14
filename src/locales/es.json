@@ -17,5 +17,16 @@
 				"description": "Dellub software"
 			}
 		}
-  }
+  },
+	"components": {
+		"header": {
+			"title": "Dellub Software",
+			"links": {
+				"home": "Home",
+				"about-me": "Acerca de mí",
+				"cases": "Cases",
+				"contact-us": "Hable con nosotros"
+			}
+		}
+	}
 }
