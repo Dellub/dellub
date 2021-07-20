@@ -2,11 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+	@import './typography.css';
+}
+
 @layer components {
+	body {
+		-webkit-font-smoothing: antialiased;
+	}
   @import './button.css';
 	@import './icon.css';
-	@import './typography.css';
 	@import './layout.css';
 	@import './image.css';
 	@import './header.css';
+	@import './footer.css';
 }

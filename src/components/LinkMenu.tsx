@@ -12,6 +12,8 @@ const LinkMenu = ({ children, alias }: LinkMenuProps) => {
   const router = useRouter();
   const { pathname } = router;
 	const route = aliasRoutes(alias);
+
+	console.log(route, pathname, isRouteByPath(alias, pathname))
 	return (
 		<Link {...route}>
 			<a className={`link-menu ${isRouteByPath(alias, pathname) ? 'active' : ''}`} href={route.href}>{children}</a>

@@ -1,13 +1,17 @@
 .header {
-	@apply flex justify-between items-center border-b-2 border-white;
+	@apply flex justify-between items-center border-b border-white w-full text-white;
 	height: 74px;
 }
 
+.header-content {
+	@apply flex justify-between items-center;
+}
+
 .link-menu {
-	@apply ml-2 text-white font-normal;
+	@apply ml-2 font-normal;
 	margin-left: 35px;
 }
 
-.link-menu.active {
+.link-menu.active, .link-menu:hover {
 	@apply font-semibold;
 }
