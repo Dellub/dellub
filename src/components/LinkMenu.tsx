@@ -1,23 +1,14 @@
-import Link from 'next/link';
-import { useRouter } from 'next/router';
 import { ReactNode } from 'react';
-import aliasRoutes, { isRouteByPath } from '../utils/aliasRoute';
+import { onScrollTo } from '../utils/window';
 
 type LinkMenuProps = {
 	children: ReactNode;
-	alias: string;
+	id: string;
 };
 
-const LinkMenu = ({ children, alias }: LinkMenuProps) => {
-  const router = useRouter();
-  const { pathname } = router;
-	const route = aliasRoutes(alias);
-
-	console.log(route, pathname, isRouteByPath(alias, pathname))
+const LinkMenu = ({ children, id }: LinkMenuProps) => {
 	return (
-		<Link {...route}>
-			<a className={`link-menu ${isRouteByPath(alias, pathname) ? 'active' : ''}`} href={route.href}>{children}</a>
-		</Link>
+		<a className="link-menu" onClick={() => onScrollTo(id)}>{children}</a>
 	);
 };
 

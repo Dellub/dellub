@@ -1,6 +1,7 @@
 import Logo from './Logo';
 import LinkMenu from './LinkMenu';
 import { useTranslations } from 'next-intl';
+import Button from './Button';
 
 const Header = () => {
 	const t = useTranslations('components.header');
@@ -8,19 +9,30 @@ const Header = () => {
 		<header className="header">
 			<div className="container-custom header-content">
 				<Logo dark />
-					<div className="contents-link">
-					<LinkMenu alias="index">
-						{t('links.home')}
+				<div className="contents-link">
+					<LinkMenu id="about">
+						{t('links.about')}
 					</LinkMenu>
-					<LinkMenu alias="aboutMe">
-						{t('links.about-me')}
+					<LinkMenu id="clients">
+						{t('links.clients')}
 					</LinkMenu>
-					<LinkMenu alias="cases">
-						{t('links.cases')}
+					<LinkMenu id="services">
+						{t('links.services')}
 					</LinkMenu>
-					<LinkMenu alias="contactUs">
-						{t('links.contact-us')}
+					<LinkMenu id="process">
+						{t('links.process')}
 					</LinkMenu>
+					<LinkMenu id="projects">
+						{t('links.projects')}
+					</LinkMenu>
+					<LinkMenu id="what-say">
+						{t('links.what-say')}
+					</LinkMenu>
+				</div>
+				<div className="content-button">
+					<Button size='sm'>
+						{t('button-budget')}
+					</Button>
 				</div>
 			</div>
 		</header>

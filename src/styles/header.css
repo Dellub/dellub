@@ -1,17 +1,27 @@
 .header {
-	@apply flex justify-between items-center border-b border-white w-full text-white;
+	@apply flex w-full bg-gray-950 border-0 border-b-3 border-solid sticky top-0 left-0 right-0 z-50;
 	height: 74px;
+  border-image: 
+    linear-gradient(
+      to right, 
+      rgba(255, 255, 255, 0.35), 
+      #4B74EB
+    ) 5 1%;
 }
 
 .header-content {
-	@apply flex justify-between items-center;
+	@apply flex justify-between items-center h-full w-full;
+}
+
+.contents-link,
+.content-button {
+	@apply md:flex hidden;
 }
 
 .link-menu {
-	@apply ml-2 font-normal;
-	margin-left: 35px;
+	@apply mx-3 font-normal text-white;
 }
 
 .link-menu.active, .link-menu:hover {
-	@apply font-semibold;
+	@apply text-primary cursor-pointer;
 }
