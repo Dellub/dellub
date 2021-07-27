@@ -22,11 +22,14 @@
 		"header": {
 			"title": "Dellub Software",
 			"links": {
-				"home": "Home",
-				"about-me": "Sobre nós",
-				"cases": "Cases",
-				"contact-us": "Fale conosco"
-			}
+				"about": "Sobre",
+				"clients": "Clientes",
+				"services": "Serviços",
+				"process": "Processo",
+				"projects": "Projetos",
+				"what-say": "O que falam?"
+			},
+			"button-budget": "Orçamento"
 		}
 	}
 }
