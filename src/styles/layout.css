@@ -3,9 +3,14 @@
 }
 
 .layout {
-	@apply flex flex-auto flex-col box-border;
+	@apply flex flex-auto flex-col box-border relative;
 }
 
 .container-custom {
-	@apply container mx-auto px-4;
+	@apply max-w-screen-xl mx-auto px-4;
+}
+
+.main {
+	@apply h-full;
+	min-height: calc(100vh - 74px);
 }
