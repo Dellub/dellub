@@ -15,10 +15,18 @@ module.exports = {
     typography: ['dark'],
   },
 	theme: {
+		borderWidth: {
+			DEFAULT: '1px',
+			'0': '0',
+			'2': '2px',
+			'3': '3px',
+			'4': '4px',
+			'6': '6px',
+			'8': '8px',
+		},
 		flex: {
 			auto: 'auto',
 		},
-    typography: (theme) => ({}),
 		screens: {
 			sm: '540px',
 			md: '720px',
@@ -38,11 +46,9 @@ module.exports = {
 					'8xl': '6.5rem',
 				}
 			},
-			lineHeight: {
-	
-			},
 			colors: {
 				gray: {
+					950: '#1B2125',
 					900: '#3B3F49',
 					800: '#474F63',
 					700: '#6E778D',
