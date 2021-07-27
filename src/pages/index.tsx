@@ -29,19 +29,19 @@ const Home = () => {
   };
 
   return (
-			<Layout>
-				<NextSeo
-					{...metas}
-					openGraph={{
-						...metas,
-					}}
-				/>
-				<Header />
-				<main className="container-custom">
-					test
-				</main>
-				<Footer />
-			</Layout>
+		<Layout>
+			<NextSeo
+				{...metas}
+				openGraph={{
+					...metas,
+				}}
+			/>
+			<Header />
+			<main className="container-custom main">
+				test
+			</main>
+			<Footer />
+		</Layout>
   );
 };
 

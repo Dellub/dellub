@@ -15,7 +15,7 @@ export default class IntlDocument extends Document {
 					<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
 					<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet" />
         </Head>
-        <body className="bg-primary dark:bg-gray-800">
+        <body className="bg-black text-white">
           <Main />
           <NextScript />
         </body>
