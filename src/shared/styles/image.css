@@ -4,3 +4,13 @@
 	width: 36px;
 	height: 36px;
 }
+
+.logo {
+	width: 86px;
+}
+
+@media (max-width: 640px) {
+	.logo {
+		width: 69px;
+	}
+}

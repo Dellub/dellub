@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 import { useTranslations } from "next-intl";
 import { NextSeo } from "next-seo";
 
-import LottieFile from '../lotties/404.json';
+import LottieFile from '../shared/lotties/404.json';
 
 const Custom404 = () => {
 	const t = useTranslations('pages.404');
@@ -56,7 +56,7 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
       messages: {
-        ...require(`../locales/${locale}.json`),
+        ...require(`../../locales/${locale}.json`),
       },
     }
   }

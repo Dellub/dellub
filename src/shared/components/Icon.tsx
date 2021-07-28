@@ -1,10 +1,10 @@
 import { ReactNode } from 'react';
 
-type ButtonProps = {
+type IconProps = {
 	children: ReactNode;
 }
 
-const Button = ({ children }: ButtonProps) => {
+const Icon = ({ children }: IconProps) => {
 	return (
 		<span className="icon icon-default">
 			{children}
@@ -12,4 +12,4 @@ const Button = ({ children }: ButtonProps) => {
 	);
 };
 
-export default Button;
+export default Icon;

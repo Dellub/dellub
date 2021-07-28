@@ -11,6 +11,10 @@
 }
 
 .main {
-	@apply h-full;
+	@apply h-full w-full;
+	min-height: calc(100vh - 74px);
+}
+
+.min-h-screen-custom {
 	min-height: calc(100vh - 74px);
 }

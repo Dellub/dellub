@@ -1,8 +1,11 @@
 .display {
-	@apply text-8xl text-gray-900 font-bold;
+	@apply text-4xl md:text-8xl font-bold;
 	line-height: 8.375rem;
 }
 .display span,
+.body span,
+.body-1 span,
+.body-2 span,
 .heading span {
 	@apply block;
 }
@@ -39,11 +42,21 @@
 	@apply font-normal;
 }
 .body-1 {
-	@apply text-xl;
+	@apply text-sm md:text-xl;
+	line-height: 30px;
 }
 .body-2 {
 	@apply text-base;
 }
 .body-3 {
 	@apply text-sm;
+}
+
+@media (max-width: 640px) {
+	.display {
+		line-height: 44px;
+	}
+	.body-1 {
+		line-height: 20px;
+	}
 }
