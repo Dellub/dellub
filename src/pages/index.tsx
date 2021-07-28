@@ -1,27 +1,13 @@
 import { GetStaticProps } from 'next';
 import { useTranslations } from 'next-intl';
 import { NextSeo } from 'next-seo';
-import { useTheme } from 'next-themes';
 import React from 'react';
-import Lottie from 'react-lottie';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
-import Layout from '../components/Layout';
-
-import LottieFile from '../lotties/maintenance.json';
+import Footer from '../shared/components/Footer';
+import Header from '../shared/components/Header';
+import Layout from '../shared/components/Layout';
 
 const Home = () => {
 	const t = useTranslations('pages.maintenance');
-	const { theme, setTheme } = useTheme();
-
-	const defaultOptions = {
-		loop: true,
-		autoplay: true,
-		animationData: LottieFile,
-		rendererSettings: {
-			preserveAspectRatio: "xMidYMid slice"
-		}
-	};
 
 	const metas: IDocumentMetas = {
     title: String(t('seo.title')),

@@ -1,5 +1,5 @@
 .header {
-	@apply flex w-full bg-gray-950 border-0 border-b-3 border-solid sticky top-0 left-0 right-0 z-50;
+	@apply flex w-full bg-black md:bg-gray-950 border-0 border-b-0 md:border-b-3 border-solid sticky top-0 left-0 right-0 z-50;
 	height: 74px;
   border-image: 
     linear-gradient(
