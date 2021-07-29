@@ -13,9 +13,9 @@ const Header = () => {
 					<LinkMenu id="about">
 						{t('links.about')}
 					</LinkMenu>
-					<LinkMenu id="clients">
+					{/* <LinkMenu id="clients">
 						{t('links.clients')}
-					</LinkMenu>
+					</LinkMenu> */}
 					<LinkMenu id="services">
 						{t('links.services')}
 					</LinkMenu>

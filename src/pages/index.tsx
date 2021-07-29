@@ -10,7 +10,7 @@ import HeroHome from '../shared/components/HeroHome';
 import WhyDellub from '../shared/components/WhyDellub';
 
 const Home = () => {
-	const t = useTranslations('pages.maintenance');
+	const t = useTranslations('pages.home');
 
 	const metas: IDocumentMetas = {
     title: String(t('seo.title')),

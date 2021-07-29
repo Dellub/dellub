@@ -24,7 +24,7 @@ const App = ({ Component, pageProps, router: { locale, asPath }, router }: AppPr
 				}}
 			/>
 			<DefaultSeo
-				titleTemplate="%s | Dellub"
+				titleTemplate="%s | Dellub Software and Design"
 				canonical={`https://www.dellub.com/${locale}${asPath}`}
 				openGraph={{
 					type: 'website',

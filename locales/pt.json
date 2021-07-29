@@ -1,11 +1,11 @@
 {
   "pages": {
-    "maintenance": {
-      "title": "Ops!!!",
-			"description": "Desculpe, nossa página está em manutenção",
+    "home": {
+      "title": "Home",
+			"description": "Home",
 			"seo": {
-				"title": "Página em manutenção",
-				"description": "Dellub software"
+				"title": "Home",
+				"description": "Home"
 			}
     },
 		"404": {
