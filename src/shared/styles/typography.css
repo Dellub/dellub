@@ -6,12 +6,13 @@
 .body span,
 .body-1 span,
 .body-2 span,
+.body-3 span,
 .heading span {
 	@apply block;
 }
 
 .heading {
-	@apply text-gray-700 font-bold;
+	@apply font-bold;
 }
 .heading-1 {
 	@apply text-5xl;
@@ -53,10 +54,28 @@
 }
 
 @media (max-width: 640px) {
+	.display span,
+	.body span,
+	.body-1 span,
+	.body-2 span,
+	.body-3 span,
+	.heading span {
+		@apply inline;
+	}
 	.display {
 		line-height: 44px;
 	}
 	.body-1 {
 		line-height: 20px;
+	}
+	.heading-1 {
+		@apply text-2xl;
+		line-height: 35px;
+	}
+	.heading-4 {
+		@apply text-lg;
+	}
+	.body-2 {
+		@apply text-xs;
 	}
 }

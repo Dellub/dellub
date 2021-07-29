@@ -25,8 +25,8 @@ const Header = () => {
 					<LinkMenu id="projects">
 						{t('links.projects')}
 					</LinkMenu>
-					<LinkMenu id="what-say">
-						{t('links.what-say')}
+					<LinkMenu id="depositions">
+						{t('links.depositions')}
 					</LinkMenu>
 				</div>
 				<div className="content-button">

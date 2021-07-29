@@ -8,7 +8,7 @@
 
 @layer components {
 	body {
-		-webkit-font-smoothing: antialiased;
+		@apply overflow-x-hidden antialiased;
 	}
   @import './button.css';
 	@import './icon.css';

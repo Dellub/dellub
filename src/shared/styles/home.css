@@ -1,11 +1,37 @@
 .home-d {
 	@apply absolute bottom-24 -left-60 md:block hidden;
 	width: 400px;
-	z-index: -50;
 }
 
 .home-hero {
 	@apply absolute bottom-6 right-0 lg:-right-4 md:block hidden;
 	width: 600px;
 	z-index: -50;
+}
+
+.why-dellub {
+	@apply absolute bottom-0 top-0 right-0 lg:right-0 md:flex hidden;
+}
+.why-dellub img {
+	height: 630px;
+}
+
+.why-dellub-item {
+	@apply flex flex-col md:flex-row items-center md:items-start pb-10 md:pb-20 relative;
+}
+.why-dellub:last-of-type {
+	@apply pb-20 md:pb-0;
+}
+.why-dellub-image {
+	@apply mr-0 mb-7 md:mr-5 md:mb-0;
+	width: 70px;
+}
+.why-dellub-title {
+	@apply mb-3 md:mb-2 block;
+}
+.why-dellub-dots {
+	@apply absolute bottom-4 left-9 md:block hidden;
+}
+.why-dellub-item:last-of-type .why-dellub-dots {
+	@apply hidden;
 }
