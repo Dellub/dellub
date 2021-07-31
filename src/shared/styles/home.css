@@ -43,7 +43,6 @@
 }
 
 .number {
-	@apply block;
 	line-height: 71px;
 	background: linear-gradient(90deg, #4B74EB 1.9%, #9BB4FF 54.7%, #9BB4FF 100%);
 	background-clip: text;

@@ -15,6 +15,7 @@ h6 {
 .body-1 span,
 .body-2 span,
 .body-3 span,
+.body-4 span,
 .heading span {
 	@apply block;
 }

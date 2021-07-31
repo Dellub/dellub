@@ -22,45 +22,45 @@ const Process = () => {
 					<div className="hidden md:grid grid-cols-2 lg:grid-cols-4 mt-14">
 						<div className="p-10 border border-white">
 							<span className="heading-1 number">01</span>
-							<span className="heading-4">Play</span>
+							<span className="heading-4 block">Play</span>
 							<p className="body-4 mt-4">Troca de e-mails, reuniões e fechamos um briefing com as informações para realizar todo projeto.</p>
 						</div>
 						<div className="p-10 border border-white">
 							<span className="heading-1 number">02</span>
-							<span className="heading-4">Design</span>
+							<span className="heading-4 block">Design</span>
 							<p className="body-4 mt-4">Etapas: Wireframe, onde é feito o desenho de baixa fidelidade para validação da estrutura das páginas. Se aprovado, é iniciado um protótipo em alta fidelidade!</p>
 						</div>
 						<div className="p-10 border border-white">
 							<span className="heading-1 number">03</span>
-							<span className="heading-4">Code</span>
+							<span className="heading-4 block">Code</span>
 							<p className="body-4 mt-4">Através das tecnologias damos vida ao design.</p>
 						</div>
 						<div className="p-10 border border-white">
 							<span className="heading-1 number">04</span>
-							<span className="heading-4">Delivery</span>
+							<span className="heading-4 block">Delivery</span>
 							<p className="body-4 mt-4"><span>Prontinho!!</span> Projeto entregue com grande qualidade, claro, a tecnologia muda, então estaremos sempre juntos nessa jornada.</p>
 						</div>
 					</div>
-					<div className="block md:hidden w-full mt-10">
+					<div className="block md:hidden w-full mt-14">
 						<Slider {...settings}>
 							<div className="p-3.5 border border-white min-h-full">
 								<span className="heading-1 number">01</span>
-								<span className="heading-4">Play</span>
+								<span className="heading-4 block">Play</span>
 								<p className="body-4 mt-4">Troca de e-mails, reuniões e fechamos um briefing com as informações para realizar todo projeto.</p>
 							</div>
 							<div className="p-3.5 border border-white min-h-full">
 								<span className="heading-1 number">02</span>
-								<span className="heading-4">Design</span>
+								<span className="heading-4 block">Design</span>
 								<p className="body-4 mt-4">Etapas: Wireframe, onde é feito o desenho de baixa fidelidade para validação da estrutura das páginas. Se aprovado, é iniciado um protótipo em alta fidelidade!</p>
 							</div>
 							<div className="p-3.5 border border-white min-h-full">
 								<span className="heading-1 number">03</span>
-								<span className="heading-4">Code</span>
+								<span className="heading-4 block">Code</span>
 								<p className="body-4 mt-4">Através das tecnologias damos vida ao design.</p>
 							</div>
 							<div className="p-3.5 border border-white min-h-full">
 								<span className="heading-1 number">04</span>
-								<span className="heading-4">Delivery</span>
+								<span className="heading-4 block">Delivery</span>
 								<p className="body-4 mt-4"><span>Prontinho!!</span> Projeto entregue com grande qualidade, claro, a tecnologia muda, então estaremos sempre juntos nessa jornada.</p>
 							</div>
 						</Slider>
