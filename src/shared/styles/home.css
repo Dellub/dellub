@@ -41,3 +41,32 @@
 	@apply mr-0 mb-7 md:mr-5 md:mb-0;
 	width: 36px;
 }
+
+.number {
+	@apply block;
+	line-height: 71px;
+	background: linear-gradient(90deg, #4B74EB 1.9%, #9BB4FF 54.7%, #9BB4FF 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.slick-dots {
+	@apply -bottom-10 !important;
+}
+
+.slick-dots li {
+	width: 10px !important;
+	height: 10px !important;
+}
+
+.slick-dots button::before {
+	content: '' !important;
+	width: 10px !important;
+	height: 10px !important;
+	border-radius: 100% !important;
+	@apply bg-gray-300 !important
+}
+.slick-dots .slick-active button::before {
+	background: linear-gradient(90deg, #4B74EB 1.9%, #9BB4FF 54.7%, #9BB4FF 100%) !important;
+}

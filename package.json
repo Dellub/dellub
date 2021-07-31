@@ -19,11 +19,14 @@
     "nextjs-progressbar": "^0.0.11",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-lottie": "^1.2.3"
+    "react-lottie": "^1.2.3",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@types/react": "17.0.11",
     "@types/react-lottie": "^1.2.5",
+    "@types/react-slick": "^0.23.5",
     "autoprefixer": "^10.2.6",
     "eslint": "7.29.0",
     "eslint-config-next": "11.0.1",

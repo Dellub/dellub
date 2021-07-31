@@ -1,7 +1,15 @@
-.display {
-	@apply text-4xl md:text-8xl font-bold;
-	line-height: 8.375rem;
+p,
+button,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Heebo', sans-serif;
 }
+
 .display span,
 .body span,
 .body-1 span,
@@ -9,6 +17,11 @@
 .body-3 span,
 .heading span {
 	@apply block;
+}
+
+.display {
+	@apply text-4xl md:text-8xl font-bold;
+	line-height: 8.375rem;
 }
 
 .heading {
@@ -51,6 +64,9 @@
 }
 .body-3 {
 	@apply text-sm;
+}
+.body-4 {
+	@apply text-lg;
 }
 
 @media (max-width: 640px) {
