@@ -51,6 +51,22 @@
 	color: transparent;
 }
 
+.slick-track,
+.slick-slider,
+.slick-list,
+.slick-slide,
+.slick-slide > div {
+	@apply min-h-full;
+}
+.slick-slide > div,
+.slick-track {
+	@apply flex;
+}
+
+.slick-slide {
+	height: auto;
+}
+
 .slick-dots {
 	@apply -bottom-10 !important;
 }
