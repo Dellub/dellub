@@ -4,7 +4,7 @@ import Button from './Button';
 
 const HeroHome = () => {
 	return (
-		<section className="container-custom min-h-screen-custom py-auto flex flex-col relative">
+		<section className="container-custom min-h-screen-custom py-auto flex flex-col relative" id="home">
 			<img src="/images/d.png" alt="Logo d" className="home-d" />
 			<img src="/images/home-hero-desktop.png" alt="Hero Home" className="home-hero" />
 			<div className="my-auto flex flex-col items-center md:items-start">

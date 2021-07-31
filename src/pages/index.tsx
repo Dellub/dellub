@@ -8,6 +8,7 @@ import Header from '../shared/components/Header';
 import Layout from '../shared/components/Layout';
 import HeroHome from '../shared/components/HeroHome';
 import WhyDellub from '../shared/components/WhyDellub';
+import Services from '../shared/components/Services';
 
 const Home = () => {
 	const t = useTranslations('pages.home');
@@ -29,6 +30,7 @@ const Home = () => {
 			<main className="main">
 				<HeroHome />
 				<WhyDellub />
+				<Services />
 			</main>
 			<Footer />
 		</Layout>

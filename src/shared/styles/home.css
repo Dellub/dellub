@@ -9,7 +9,8 @@
 	z-index: -50;
 }
 
-.why-dellub {
+.why-dellub,
+.services-image {
 	@apply absolute bottom-0 top-0 right-0 lg:right-0 md:flex hidden;
 }
 .why-dellub img {
@@ -34,4 +35,9 @@
 }
 .why-dellub-item:last-of-type .why-dellub-dots {
 	@apply hidden;
+}
+
+.services-item-image {
+	@apply mr-0 mb-7 md:mr-5 md:mb-0;
+	width: 36px;
 }

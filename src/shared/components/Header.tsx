@@ -8,7 +8,9 @@ const Header = () => {
 	return (
 		<header className="header">
 			<div className="container-custom header-content">
-				<Logo />
+				<LinkMenu id="home">
+					<Logo />
+				</LinkMenu>
 				<div className="contents-link">
 					<LinkMenu id="about">
 						{t('links.about')}
