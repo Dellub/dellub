@@ -11,6 +11,8 @@ import WhyDellub from '../shared/components/WhyDellub';
 import Services from '../shared/components/Services';
 import Process from '../shared/components/Process';
 import Depositions from '../shared/components/Depositions';
+import Clients from '../shared/components/Clients';
+import Projects from '../shared/components/Projects';
 
 const Home = () => {
 	const t = useTranslations('pages.home');
@@ -32,9 +34,11 @@ const Home = () => {
 			<main className="main">
 				<HeroHome />
 				<WhyDellub />
+				<Clients />
 				<Services />
 				<Process />
 				<Depositions />
+				<Projects />
 			</main>
 			<Footer />
 		</Layout>
