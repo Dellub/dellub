@@ -42,6 +42,19 @@
 	width: 36px;
 }
 
+.process-dot-custom {
+	@apply absolute top-0 bottom-0 -right-7 h-full flex items-center justify-center;
+	z-index: 10;
+}
+.process-dot-custom div {
+	@apply flex items-center justify-center bg-white rounded-full;
+	width: 52px;
+	height: 52px;
+}
+.process-dot-custom svg {
+	@apply fill-current text-primary;
+}
+
 .number {
 	line-height: 71px;
 	background: linear-gradient(90deg, #4B74EB 1.9%, #9BB4FF 54.7%, #9BB4FF 100%);
