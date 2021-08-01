@@ -10,6 +10,7 @@ import HeroHome from '../shared/components/HeroHome';
 import WhyDellub from '../shared/components/WhyDellub';
 import Services from '../shared/components/Services';
 import Process from '../shared/components/Process';
+import Depositions from '../shared/components/Depositions';
 
 const Home = () => {
 	const t = useTranslations('pages.home');
@@ -33,6 +34,7 @@ const Home = () => {
 				<WhyDellub />
 				<Services />
 				<Process />
+				<Depositions />
 			</main>
 			<Footer />
 		</Layout>

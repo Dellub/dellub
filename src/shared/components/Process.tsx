@@ -57,7 +57,7 @@ const Process = () => {
 							<p className="body-4 mt-4"><span>Prontinho!!</span> Projeto entregue com grande qualidade, claro, a tecnologia muda, então estaremos sempre juntos nessa jornada.</p>
 						</div>
 					</div>
-					<div className="block md:hidden w-full mt-14">
+					<div className="block md:hidden w-full mt-14 process">
 						<Slider {...settings}>
 							<div className="p-3.5 border border-white min-h-full">
 								<span className="heading-1 number">01</span>

@@ -63,38 +63,65 @@
 	color: transparent;
 }
 
-.slick-track,
-.slick-slider,
-.slick-list,
-.slick-slide,
-.slick-slide > div {
+.process .slick-track,
+.process .slick-slider,
+.process .slick-list,
+.process .slick-slide,
+.process .slick-slide > div {
 	@apply min-h-full;
 }
-.slick-slide > div,
-.slick-track {
+.process .slick-slide > div,
+.process .slick-track {
 	@apply flex;
 }
 
-.slick-slide {
+.process .slick-slide {
 	height: auto;
 }
 
-.slick-dots {
+.process .slick-dots {
 	@apply -bottom-10 !important;
 }
 
-.slick-dots li {
+.process .slick-dots li {
 	width: 10px !important;
 	height: 10px !important;
 }
 
-.slick-dots button::before {
+.process .slick-dots button::before {
 	content: '' !important;
 	width: 10px !important;
 	height: 10px !important;
 	border-radius: 100% !important;
 	@apply bg-gray-300 !important
 }
-.slick-dots .slick-active button::before {
+.process .slick-dots .slick-active button::before {
 	background: linear-gradient(90deg, #4B74EB 1.9%, #9BB4FF 54.7%, #9BB4FF 100%) !important;
+}
+
+.deposition {
+	@apply bg-white text-black flex flex-col justify-between p-7 rounded-lg !important;
+	min-height: 390px;
+}
+.deposition-quote {
+	@apply mb-5;
+	width: 60px;
+	height: 60px;
+}
+.deposition-image {
+	@apply rounded-full mr-4;
+	width: 53px;
+	height: 53px;
+}
+
+.depositions .slick-slider {
+	@apply flex items-center h-full;
+}
+.arrow-custom {
+	@apply flex items-center justify-center rounded-full bg-primary mr-5 cursor-pointer;
+	min-width: 42px;
+	min-height: 42px;
+}
+.depositions .slick-slide {
+	@apply px-3;
 }
