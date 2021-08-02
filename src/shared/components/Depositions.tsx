@@ -6,7 +6,7 @@ import Slider from 'react-slick';
 const depositions = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 const Depositions = () => {
-	const CustomArrow = ({ onClick }) => {
+	const CustomArrow = ({ onClick }: { onClick?: any }): JSX.Element => {
 		return (
 			<button className="arrow-custom" onClick={onClick}>
 				<ArrowBack />
@@ -20,7 +20,7 @@ const Depositions = () => {
 		speed: 500,
 		slidesToShow: 3,
 		slidesToScroll: 1,
-		prevArrow: <CustomArrow />,
+		prevArrow: <CustomArrow onClick={true} />,
 		responsive: [
 			{
 				breakpoint: 1420,

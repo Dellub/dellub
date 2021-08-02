@@ -9,7 +9,7 @@ const Footer = () => {
 			<div className="container-custom footer-content">
 				<div className="infos">
 					<div className="info heading-5">
-						<Logo dark />
+						<Logo />
 						<p>Transforme vidas, criando experiências e oportunidades inesqueciveis.</p>
 					</div>
 					<div className="info heading-5">
