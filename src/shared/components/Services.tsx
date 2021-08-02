@@ -1,10 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
-import Button from './Button';
-import { ArrowForward } from '@material-ui/icons';
 import { useState } from 'react';
+import ButtonWhatsApp from './ButtonWhatsApp';
 
 const Services = () => {
 	const [isActive, setIsActive] = useState(1);
+	
 	return (
 		<section className="bg-gray-950 relative" id="services">
 			<div className="services-image">
@@ -55,9 +55,7 @@ const Services = () => {
 					</div>
 
 					<div className="mt-11 mb-20 md:mt-20 md:mb-0">
-						<Button size='sm'>
-							Entrar em contato <ArrowForward className="ml-5" />
-						</Button>
+						<ButtonWhatsApp />
 					</div>
 				</div>
 			</div>

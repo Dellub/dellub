@@ -6,7 +6,7 @@
 .home-hero {
 	@apply absolute bottom-6 right-0 lg:-right-4 md:block hidden;
 	width: 600px;
-	z-index: -50;
+	z-index: 0;
 }
 
 .why-dellub,

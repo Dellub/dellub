@@ -2,6 +2,8 @@ import Logo from './Logo';
 import LinkMenu from './LinkMenu';
 import { useTranslations } from 'next-intl';
 import Button from './Button';
+import { ArrowForward, WhatsApp } from '@material-ui/icons';
+import ButtonWhatsApp from './ButtonWhatsApp';
 
 const Header = () => {
 	const t = useTranslations('components.header');
@@ -27,14 +29,12 @@ const Header = () => {
 					<LinkMenu id="depositions">
 						{t('links.depositions')}
 					</LinkMenu>
-					<LinkMenu id="projects">
+					{/* <LinkMenu id="projects">
 						{t('links.projects')}
-					</LinkMenu>
+					</LinkMenu> */}
 				</div>
 				<div className="content-button">
-					<Button size='sm'>
-						{t('button-budget')}
-					</Button>
+					<ButtonWhatsApp />
 				</div>
 			</div>
 		</header>

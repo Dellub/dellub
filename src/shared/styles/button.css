@@ -1,5 +1,5 @@
 .btn {
-	@apply rounded-md text-base leading-4 font-bold transition-all px-10;
+	@apply rounded-md text-base leading-4 font-bold transition-all px-10 flex justify-center items-center;
 	/* width: 264px; */
 	/* min-width: 264px; */
 	/* max-width: 264px; */

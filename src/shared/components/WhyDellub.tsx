@@ -8,7 +8,7 @@ const WhyDellub = () => {
 			<div className="why-dellub">
 				<img src="/images/why-dellub.png" alt="Por que escolher a Dellub" className="my-auto" />
 			</div>
-			<div className="container-custom min-h-screen-custom py-auto flex flex-col relative">
+			<div className="container-custom min-h-screen-custom py-auto flex flex-col relative z-10">
 				<img src="/images/d.png" alt="Logo d" className="home-d" />
 				<div className="my-auto flex flex-col items-center md:items-start">
 					<img src="/images/marker.png" alt="Marker Title" className=" hidden md:block" />

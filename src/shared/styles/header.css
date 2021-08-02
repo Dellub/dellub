@@ -19,7 +19,7 @@
 }
 
 .link-menu {
-	@apply mx-3 font-normal text-white;
+	@apply px-3 font-normal text-white;
 }
 
 .link-menu.active, .link-menu:hover {

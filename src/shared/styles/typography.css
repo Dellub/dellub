@@ -8,7 +8,12 @@ h4,
 h5,
 h6 {
 	font-family: 'Heebo', sans-serif;
+	@apply text-white;
 }
+
+/* a {
+	@apply text-white !important;
+} */
 
 .display span,
 .body span,
