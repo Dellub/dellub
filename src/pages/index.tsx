@@ -12,7 +12,7 @@ import Services from '../shared/components/Services';
 import Process from '../shared/components/Process';
 import Depositions from '../shared/components/Depositions';
 import Clients from '../shared/components/Clients';
-import Projects from '../shared/components/Projects';
+// import Projects from '../shared/components/Projects';
 
 const Home = () => {
 	const t = useTranslations('pages.home');
@@ -38,7 +38,7 @@ const Home = () => {
 				<Services />
 				<Process />
 				<Depositions />
-				<Projects />
+				{/* <Projects /> */}
 			</main>
 			<Footer />
 		</Layout>
