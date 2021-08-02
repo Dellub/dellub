@@ -6,7 +6,6 @@ const ButtonDeposition = () => {
 		<Link href="https://forms.gle/dsXqKLMctZbxLz3b9" passHref>
 			<a target="_blank" className="btn btn-sm btn-primary">
 				<Stars className="mr-1" /> Avalie nossa empresa
-				{/* Avalie nossa empresa <ArrowForward className="ml-1" /> */}
 			</a>
 		</Link>
 	);
