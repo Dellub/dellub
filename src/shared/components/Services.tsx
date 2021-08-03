@@ -20,7 +20,7 @@ const Services = () => {
 							className={`why-dellub-item pl-0 py-0 pb-10 md:pl-8 md:py-4 border-0 md:border-l-4 cursor-pointer ${isActive === 1 ? 'border-primary' : 'border-gray-200'}`}
 							onClick={() => setIsActive(1)}
 						>
-							<img src="/images/dream.png" alt="Realizamos sonhos" className="services-item-image" />
+							<img src={`/images/dream${isActive === 1 ? '-active' : ''}.png`} alt="Realizamos sonhos" className="services-item-image" />
 							<div className="text-center md:text-left">
 								<span className={`heading heading-4 why-dellub-title ${isActive === 1 ? 'text-white' : 'text-gray-600'}`}>Realizamos sonhos</span>
 								<p className={`body body-2 ${isActive === 1 ? 'text-white' : 'text-gray-600'}`} dangerouslySetInnerHTML={{
@@ -32,7 +32,7 @@ const Services = () => {
 							className={`why-dellub-item pl-0 py-0 pb-10 md:pl-8 md:py-4 border-0 md:border-l-4 cursor-pointer ${isActive === 2 ? 'border-primary' : 'border-gray-200'}`}
 							onClick={() => setIsActive(2)}
 						>
-							<img src="/images/project.png" alt="Entregamos um projeto funcional" className="services-item-image" />
+							<img src={`/images/project${isActive === 2 ? '-active' : ''}.png`} alt="Entregamos um projeto funcional" className="services-item-image" />
 							<div className="text-center md:text-left">
 								<span className={`heading heading-4 why-dellub-title ${isActive === 2 ? 'text-white' : 'text-gray-600'}`}>Entregamos um projeto funcional</span>
 								<p className={`body body-2 ${isActive === 2 ? 'text-white' : 'text-gray-600'}`} dangerouslySetInnerHTML={{
@@ -44,7 +44,7 @@ const Services = () => {
 							className={`why-dellub-item pl-0 py-0 pb-10 md:pl-8 md:py-4 border-0 md:border-l-4 cursor-pointer ${isActive === 3 ? 'border-primary' : 'border-gray-200'}`}
 							onClick={() => setIsActive(3)}
 						>
-							<img src="/images/interface.png" alt="Interfaces que geram valores" className="services-item-image" />
+							<img src={`/images/interface${isActive === 3 ? '-active' : ''}.png`} alt="Interfaces que geram valores" className="services-item-image" />
 							<div className="text-center md:text-left">
 								<span className={`heading heading-4 why-dellub-title ${isActive === 3 ? 'text-white' : 'text-gray-600'}`}>Interfaces que geram valores</span>
 								<p className={`body body-2 ${isActive === 3 ? 'text-white' : 'text-gray-600'}`} dangerouslySetInnerHTML={{

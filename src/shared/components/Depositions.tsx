@@ -1,10 +1,34 @@
 /* eslint-disable @next/next/no-img-element */
-import Button from './Button';
-import { ArrowForward, ArrowBack } from '@material-ui/icons';
+import { ArrowBack } from '@material-ui/icons';
 import Slider from 'react-slick';
 import ButtonDeposition from './ButtonDeposition';
 
-const depositions = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const depositions = [
+	{
+		name: 'Matheus Santos',
+		company: 'Grupo Flix',
+		body: 'Tive uma grande experiência ao adquirir meu site com a dellub, consigo levar minha marca para todo território e alcançar mais pessoas',
+		photoUrl: ''
+	},
+	{
+		name: 'Luana Teodoro',
+		company: 'Arquitetura',
+		body: 'Graças a dellub realizei meu sonho de ter um portfólio profissional para arquitetura, consegui mais clientes e hoje com toda certeza posso indicar',
+		photoUrl: ''
+	},
+	{
+		name: 'Fabio Melhado',
+		company: 'FabyFer',
+		body: 'Iniciei atualmente o site de grande sucesso com a equipe dellub, ainda não está pronto o desenvolvimento, mas através do layout consigo dizer o quanto estou feliz com o resultado',
+		photoUrl: ''
+	},
+	{
+		name: 'Pablo Oliver',
+		company: 'Advocacia Três Irmãos',
+		body: 'Hoje posso dizer que temos um grande site para apresentar nossos trabalhos de advocacia, preço incrível, que cabe no bolso e grandes resultados',
+		photoUrl: ''
+	},
+];
 
 const Depositions = () => {
 	const CustomArrow = ({ onClick }: { onClick?: any }): JSX.Element => {
@@ -35,8 +59,8 @@ const Depositions = () => {
 					slidesToShow: 1,
 					arrows: false,
 					className: "center",
-					// centerMode: true,
-					centerPadding: "60px",
+					centerMode: true,
+					centerPadding: "10px",
 					useTransform: false,
 				}
 			}
@@ -52,19 +76,19 @@ const Depositions = () => {
 					<h1 className="heading heading-1 text-center md:text-left mt-16 md:mt-0">Eles começaram pequenos <span>e hoje são gigantes!</span></h1>
 					<h2 className="body-1 mt-6 text-center md:text-left">Histórias reais, de clientes como você que usam e <span>recomendam a dellub.</span></h2>
 
-					<div className="min-w-full w-full block lg:hidden mt-14">
+					<div className="min-w-full w-full block lg:hidden mt-14 depositions-slider w-screen">
 						<Slider {...settings}>
 							{depositions?.map((value) => (
-								<div className="deposition" key={value}>
+								<div className="deposition" key={value.company}>
 									<div>
 										<img src="/images/quote.png" alt="Quote" className="deposition-quote" />
-										<p className="text-sm text-gray-900 text-justify">“Lorem ipsum dolor sit amet, consectetur dolor sit ametadipiscing elit, Lorem ipsum dolor sit sit amet, consectetur sit sit dolor sit ametadipiscing“</p>
+										<p className="text-sm text-gray-900 text-justify">“{value?.body}“</p>
 									</div>
 									<div className="flex items-center">
-										<img className="deposition-image" src="https://mir-s3-cdn-cf.behance.net/user/276/aae6bf531378077.5e969ebbb821c.png" alt="Amanda Merien" />
+										{/* <img className="deposition-image" src={value?.photoUrl} alt={value?.name} /> */}
 										<div className="flex flex-col">
-											<span className="font-bold text-base">Amanda Merien</span>
-											<span className="text-sm text-gray-900">Dellub</span>
+											<span className="font-bold text-base text-black">{value?.name}</span>
+											<span className="text-sm text-gray-900">{value?.company}</span>
 										</div>
 									</div>
 								</div>
@@ -80,16 +104,16 @@ const Depositions = () => {
 				<div className="block h-full depositions">
 					<Slider {...settings}>
 						{depositions?.map((value) => (
-							<div className="deposition" key={value}>
+							<div className="deposition" key={value?.company}>
 								<div>
 									<img src="/images/quote.png" alt="Quote" className="deposition-quote" />
-									<p className="text-sm text-gray-900 text-justify">“Lorem ipsum dolor sit amet, consectetur dolor sit ametadipiscing elit, Lorem ipsum dolor sit sit amet, consectetur sit sit dolor sit ametadipiscing“</p>
+									<p className="text-sm text-gray-900 text-justify">“{value?.body}“</p>
 								</div>
 								<div className="flex items-center">
-									<img className="deposition-image" src="https://mir-s3-cdn-cf.behance.net/user/276/aae6bf531378077.5e969ebbb821c.png" alt="Amanda Merien" />
+									{/* <img className="deposition-image" src={value?.photoUrl} alt={value?.name} /> */}
 									<div className="flex flex-col">
-										<span className="font-bold text-base">Amanda Merien</span>
-										<span className="text-sm text-gray-900">Dellub</span>
+										<span className="font-bold text-base text-black">{value?.name}</span>
+										<span className="text-sm text-gray-900">{value?.company}</span>
 									</div>
 								</div>
 							</div>

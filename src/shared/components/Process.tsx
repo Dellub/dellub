@@ -14,9 +14,9 @@ const Process = () => {
 
 	return (
 		<section className="relative" id="process">
-			<div className="container-custom min-h-screen-custom py-auto flex flex-col relative">
+			<div className="container-custom py-auto min-h-screen-custom flex flex-col relative">
 				<img src="/images/d.png" alt="Logo d" className="home-d" />
-				<div className="my-auto flex flex-col items-center md:items-start">
+				<div className="flex flex-col items-center md:items-start mb-24 md:mb-auto my-auto">
 					<img src="/images/marker.png" alt="Marker Title" className=" hidden md:block" />
 					<h1 className="heading heading-1 text-center md:text-left mt-16 md:mt-0">Nosso processo</h1>
 

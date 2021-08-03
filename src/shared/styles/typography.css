@@ -23,6 +23,7 @@ h6 {
 .body-4 span,
 .heading span {
 	@apply block;
+	color: inherit;
 }
 
 .display {

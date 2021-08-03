@@ -10,9 +10,9 @@ const WhyDellub = () => {
 			</div>
 			<div className="container-custom min-h-screen-custom py-auto flex flex-col relative z-10">
 				<img src="/images/d.png" alt="Logo d" className="home-d" />
-				<div className="my-auto flex flex-col items-center md:items-start">
+				<div className="my-auto flex flex-col items-center md:items-start mb-12 md:mb-0 ">
 					<img src="/images/marker.png" alt="Marker Title" className=" hidden md:block" />
-					<h1 className="heading heading-1 text-center md:text-left mt-16 md:mt-0">Por que escolher a <span>dellub</span></h1>
+					<h1 className="heading heading-1 text-center md:text-left mt-16 md:mt-0">Por que escolher a <span>dellub?</span></h1>
 
 					<div className="flex flex-col mt-14">
 						<WhyDellubItem title="Foco no resultado" description="Todo projeto é construído por profissionais <span>especializados e com foco no melhor resultado.</span>" image="focus-result" />

@@ -99,6 +99,10 @@
 	background: linear-gradient(90deg, #4B74EB 1.9%, #9BB4FF 54.7%, #9BB4FF 100%) !important;
 }
 
+.depositions-slider .slick-center div {
+	@apply px-4;
+}
+
 .deposition {
 	@apply bg-white text-black flex flex-col justify-between p-7 rounded-lg !important;
 	min-height: 390px;
