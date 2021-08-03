@@ -100,7 +100,7 @@
 }
 
 .client-image {
-	@apply p-5;
+	@apply p-4 md:p-10;
 	width: 250px;
 	transition: all 0.5;
 }

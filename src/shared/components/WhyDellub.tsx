@@ -17,7 +17,7 @@ const WhyDellub = () => {
 					<div className="flex flex-col mt-14">
 						<WhyDellubItem title="Foco no resultado" description="Todo projeto é construído por profissionais <span>especializados e com foco no melhor resultado.</span>" image="focus-result" />
 						<WhyDellubItem title="Acompanhamento de perto" description="Todo o suporte que você precisa para <span>o melhor resultado.</span>" image="close-monitoring" />
-						<WhyDellubItem title="Decolado de um jeito fácil" description="Designers e desenvolvedores em busca da melhor <span>experiência e entrega final.</span>" image="cool" />
+						<WhyDellubItem title="Descolado de um jeito fácil" description="Designers e desenvolvedores em busca da melhor <span>experiência e entrega final.</span>" image="cool" />
 					</div>
 				</div>
 			</div>

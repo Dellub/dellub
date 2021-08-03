@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 
 const Clients = () => {
 	return (
-		<section className="py-20 px-14 flex flex-row justify-between items-center flex-wrap relative clients-slider" id="clients">
+		<section className="py-20 px-2 flex flex-row justify-center items-center flex-wrap relative clients-slider" id="clients">
 			<img src="/images/udix.png" alt="Udix" className="client-image" />
 			<img src="/images/trafalgar.png" alt="Trafalgar" className="client-image" />
 			<img src="/images/care-switch.png" alt="Care Switch" className="client-image" />
