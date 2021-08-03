@@ -76,7 +76,7 @@ const Depositions = () => {
 					<h1 className="heading heading-1 text-center md:text-left mt-16 md:mt-0">Eles começaram pequenos <span>e hoje são gigantes!</span></h1>
 					<h2 className="body-1 mt-6 text-center md:text-left">Histórias reais, de clientes como você que usam e <span>recomendam a dellub.</span></h2>
 
-					<div className="min-w-full w-full block lg:hidden mt-14 depositions-slider w-screen">
+					<div className="min-w-full block lg:hidden mt-14 depositions-slider w-screen">
 						<Slider {...settings}>
 							{depositions?.map((value) => (
 								<div className="deposition" key={value.company}>

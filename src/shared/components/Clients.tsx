@@ -1,6 +1,15 @@
+/* eslint-disable @next/next/no-img-element */
+import Slider from 'react-slick';
+
 const Clients = () => {
 	return (
-		<section className="container-custom py-auto flex flex-col relative h-4" id="clients" />
+		<section className="py-20 px-14 flex flex-row justify-between items-center flex-wrap relative clients-slider" id="clients">
+			<img src="/images/udix.png" alt="Udix" className="client-image" />
+			<img src="/images/trafalgar.png" alt="Trafalgar" className="client-image" />
+			<img src="/images/care-switch.png" alt="Care Switch" className="client-image" />
+			<img src="/images/housy.png" alt="Care Switch" className="client-image" />
+			<img src="/images/woo-commerce.png" alt="Woo Commerce" className="client-image" />
+		</section>
 	);
 };
 
