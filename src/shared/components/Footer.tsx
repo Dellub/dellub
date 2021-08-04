@@ -1,9 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import Logo from './Logo';
-import { useTranslations } from 'next-intl';
+import Link from 'next/link';
 
 const Footer = () => {
-	const t = useTranslations('components.footer');
 	return (
 		<footer className="footer">
 			<div className="container-custom footer-content">
@@ -33,9 +32,21 @@ const Footer = () => {
 						<span>© Copyright 2021. Desenvolvido com<span>💙</span>por dellub</span>
 					</div>
 					<div className="social">
-						<img src="/images/icons/facebook-fill.png" alt="Facebook icon" />
-						<img src="/images/icons/twitter-fill.png" alt="Twitter icon" />
-						<img src="/images/icons/instagram-fill.png" alt="Instagram icon" />
+						<Link href="https://facebook.com/dellub.br/" passHref>
+							<a target="_blank">
+								<img src="/images/icons/facebook-fill.png" alt="Facebook icon" />
+							</a>
+						</Link>
+						<Link href="https://twitter.com/dellub_br/" passHref>
+							<a target="_blank">
+								<img src="/images/icons/twitter-fill.png" alt="Twitter icon" />
+							</a>
+						</Link>
+						<Link href="https://instagram.com/dellub.br/" passHref>
+							<a target="_blank">
+								<img src="/images/icons/instagram-fill.png" alt="Instagram icon" />
+							</a>
+						</Link>
 					</div>
 				</div>
 			</div>

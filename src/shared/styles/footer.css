@@ -52,7 +52,7 @@
 .social {
 	@apply flex justify-between items-center mb-10 md:mb-0 flex-row order-1 md:order-2;
 }
-.social > img {
+.social img {
 	@apply mx-4;
 	width: 25px;
 	height: 25px;

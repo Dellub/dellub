@@ -100,7 +100,7 @@ const Depositions = () => {
 					</div>
 				</div>
 			</div>
-			<div className="hidden lg:block absolute mt-10 md:mt-0 bottom-0 top-0 right-0 min-h-full h-full w-5/12 lg-b:w-7/12 z-10">
+			<div className="hidden lg:block absolute mt-10 md:mt-0 bottom-0 top-0 right-0 min-h-full h-full w-5/12 lg-b:w-6/12 z-10">
 				<div className="block h-full depositions">
 					<Slider {...settings}>
 						{depositions?.map((value) => (
