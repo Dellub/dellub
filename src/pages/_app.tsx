@@ -47,6 +47,10 @@ const App = ({ Component, pageProps, router: { locale, asPath }, router }: AppPr
 				}}
 			/>
 			<DefaultSeo
+				additionalMetaTags={[{
+					name: 'facebook-domain-verification',
+					content: 'oupr652bqwmqfbnxrut8u8vk5gzjxa',
+				}]}
 				titleTemplate="%s | Dellub Software and Design"
 				canonical={`https://www.dellub.com/${locale}${asPath}`}
 				openGraph={{
