@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Paleta inspirada no Claude: creme quente, terracota e tinta escura. */
+:root {
+  --bg: #faf9f5;
+  --sidebar: #f5f4ed;
+  --surface: #ffffff;
+  --border: #e8e6dc;
+  --hover: #ede9de;
+  --text: #141413;
+  --muted: #6b6a63;
+  --accent: #d97757;
+  --accent-strong: #c96442;
+  --accent-soft: #f5e6dd;
+}
+
+.dark {
+  --bg: #262624;
+  --sidebar: #1f1e1d;
+  --surface: #30302e;
+  --border: #3d3d3a;
+  --hover: #353532;
+  --text: #f5f4ed;
+  --muted: #a6a39a;
+  --accent: #d97757;
+  --accent-strong: #e08a6c;
+  --accent-soft: #3a2d27;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-sidebar: var(--sidebar);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-hover: var(--hover);
+  --color-ink: var(--text);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-accent-soft: var(--accent-soft);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-serif-display), ui-serif, Georgia, serif;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
